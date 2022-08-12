@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Viewer</title>
+  <meta charset="UTF-8" />
+  <link href="/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <video playsinline autoplay muted></video>
+  <p><span id="ms"></span>ms</p>
+  <span id="test"></span>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-peer/9.11.1/simplepeer.min.js"
+    integrity="sha512-0f7Ahsuvr+/P2btTY4mZIw9Vl23lS6LY/Y7amdkmUg2dqsUF+cTe4QjWvj/NIBHJoGksOiqndKQuI9yzn2hB0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/watch.js"></script>
+</body>
+<style>
+  video:hover {
+    cursor: none;
+  }
+</style>
+
+</html>
